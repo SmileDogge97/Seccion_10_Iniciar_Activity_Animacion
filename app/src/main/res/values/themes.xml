@@ -11,6 +11,13 @@
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
-        <!-- Customize your theme here. -->
+
+
+        <!-- Permitir las transiciones entre activitys -->
+        <item name="android:windowActivityTransitions">true</item>
+        <!--Definición de efectos de transición de entrada y salida-->
+        <item name="android:windowSharedElementEnterTransition">@android:transition/explode</item>
+        <item name="android:windowSharedElementExitTransition">@android:transition/explode</item>
+        <item name="android:duration">2500</item>
     </style>
 </resources>
